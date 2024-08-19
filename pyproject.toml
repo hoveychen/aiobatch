@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aiobatch"
+version = "0.0.1.dev0"
+authors = [
+  { name="Harry Chen", email="hoveychen@gmail.com" },
+]
+description = "Lightweight dynamic batching for pytorch/onnx model inferencing."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "torch",
+    "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/hoveychen/aiobatch"
+Issues = "https://github.com/hoveychen/aiobatch/issues"

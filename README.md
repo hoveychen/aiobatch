@@ -1,2 +1,2 @@
 # aiobatch
-Lightweight dynamic batching for asyncio requests. Helpful for improve performance of AI model inferencing.
+Lightweight dynamic batching for pytorch/onnx model inferencing.
