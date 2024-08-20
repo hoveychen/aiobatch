@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aiobatch"
-version = "0.0.1.dev0"
+version = "0.0.1.dev5"
 authors = [
   { name="Harry Chen", email="hoveychen@gmail.com" },
 ]
